@@ -7,5 +7,7 @@
 - [14. Longest Common Prefix](https://github.com/gthrm/my-leetcode/blob/main/14.Longest-Common-Prefix.js)
 - [121. Best Time to Buy and Sell Stock](https://github.com/gthrm/my-leetcode/blob/main/121.Best-Time-to-Buy-and-Sell-Stock.js)
 - [125. Valid Palindrome](https://github.com/gthrm/my-leetcode/blob/main/125.Valid-Palindrome.js)
+- [217. Contains Duplicate](https://github.com/gthrm/my-leetcode/blob/main/217.Contains-Duplicate.js)
+- [242. Valid Anagram](https://github.com/gthrm/my-leetcode/blob/main/242.Valid-Anagram.js)
 
-[Leetcode link](https://leetcode.com/gthrm/)
+  [Leetcode link](https://leetcode.com/gthrm/)
