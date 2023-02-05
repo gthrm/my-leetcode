@@ -13,30 +13,22 @@ const case4 = ["", "b"];
 const case5 = ["", "", ""];
 // Output: [["","",""]]
 
-
 /**
  * @param {string[]} strs
  * @return {string[][]}
  */
 var groupAnagrams = function (strs) {
+  const getCharCode = (char) => char.charCodeAt(0) - "a".charCodeAt(0);
   const map = new Map();
   for (let index = 0; index < strs.length; index++) {
     const currentString = strs[index];
 
-    const letterFrequencyMap = new Map();
-    for (let index = 0; index < currentString.length; index++) {
-      const later = currentString[index];
-      const frequency = letterFrequencyMap.has(later)
-        ? letterFrequencyMap.get(later) + 1
-        : 1;
-      letterFrequencyMap.set(later, frequency);
+    let frequency = new Array(26).fill(0); // 26 chars
+    for (const char of currentString) {
+      const charCode = getCharCode(char);
+      frequency[charCode]++;
     }
-    let mapKey = [];
-    for (const [later, frequency] of letterFrequencyMap) {
-      mapKey.push(`${frequency}${later}`);
-    }
-    mapKey = mapKey.sort().join();
-
+    const mapKey = frequency.toString();
     const mapValue = map.has(mapKey)
       ? [...map.get(mapKey), currentString]
       : [currentString];
@@ -46,6 +38,35 @@ var groupAnagrams = function (strs) {
 
   return [...map.values()];
 };
+
+// var groupAnagrams = function (strs) {
+//   const map = new Map();
+//   for (let index = 0; index < strs.length; index++) {
+//     const currentString = strs[index];
+
+//     const letterFrequencyMap = new Map();
+//     for (let index = 0; index < currentString.length; index++) {
+//       const later = currentString[index];
+//       const frequency = letterFrequencyMap.has(later)
+//         ? letterFrequencyMap.get(later) + 1
+//         : 1;
+//       letterFrequencyMap.set(later, frequency);
+//     }
+//     let mapKey = [];
+//     for (const [later, frequency] of letterFrequencyMap) {
+//       mapKey.push(`${frequency}${later}`);
+//     }
+//     mapKey = mapKey.sort().join();
+
+//     const mapValue = map.has(mapKey)
+//       ? [...map.get(mapKey), currentString]
+//       : [currentString];
+
+//     map.set(mapKey, mapValue);
+//   }
+
+//   return [...map.values()];
+// };
 
 console.log(
   groupAnagrams(case1),
