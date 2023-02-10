@@ -8,12 +8,24 @@ const case5 = "0P0";
  * @param {string} s
  * @return {boolean}
  */
+// var isPalindrome = function (s) {
+//   const str = s.toLowerCase().replaceAll(/[^a-z0-9]/g, "");
+//   for (let index = 0; index < Math.floor(str.length / 2); index++) {
+//     const numberFromStart = str[index];
+//     const numberFromEnd = str[str.length - 1 - index];
+//     if (numberFromStart !== numberFromEnd) {
+//       return false;
+//     }
+//   }
+//   return true;
+// };
+
 var isPalindrome = function (s) {
-  const str = s.toLowerCase().replaceAll(/[^a-z0-9]/g, "");
-  for (let index = 0; index < Math.floor(str.length / 2); index++) {
-    const numberFromStart = str[index];
-    const numberFromEnd = str[str.length - 1 - index];
-    if (numberFromStart !== numberFromEnd) {
+  const cleanString = s.toLowerCase().replaceAll(/[^a-z0-9]/g, "");
+  for (let index = 0; index < cleanString.length / 2; index++) {
+    const elementFromStart = cleanString[index];
+    const elementFromEnd = cleanString[cleanString.length - 1 - index];
+    if (elementFromStart !== elementFromEnd) {
       return false;
     }
   }
