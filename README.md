@@ -16,5 +16,6 @@
 - [242. Valid Anagram](https://github.com/gthrm/my-leetcode/blob/main/242.Valid-Anagram.js)
 - [347. Top K Frequent Elements](https://github.com/gthrm/my-leetcode/blob/main/347.Top-K-Frequent-Elements)
 - [357. Count Numbers with Unique Digits](https://github.com/gthrm/my-leetcode/blob/main/357.Count-Numbers-with-Unique-Digits.js)
+- [15. 3Sum](https://github.com/gthrm/my-leetcode/blob/main/15.3Sum.js)
 
   [Leetcode link](https://leetcode.com/gthrm/)
