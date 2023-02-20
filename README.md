@@ -19,5 +19,6 @@
 - [242. Valid Anagram](https://github.com/gthrm/my-leetcode/blob/main/242.Valid-Anagram.js)
 - [347. Top K Frequent Elements](https://github.com/gthrm/my-leetcode/blob/main/347.Top-K-Frequent-Elements)
 - [357. Count Numbers with Unique Digits](https://github.com/gthrm/my-leetcode/blob/main/357.Count-Numbers-with-Unique-Digits.js)
+- [424. Longest Repeating Character Replacement](https://github.com/gthrm/my-leetcode/blob/main/424.Longest-Repeating-Character-Replacement.js)
 
   [Leetcode link](https://leetcode.com/gthrm/)
