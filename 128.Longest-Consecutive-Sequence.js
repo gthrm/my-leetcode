@@ -32,6 +32,7 @@ var longestConsecutive = function (nums) {
   return longest;
 };
 
+
 console.log(longestConsecutive(nums1), "4");
 console.log(longestConsecutive(nums2), "9");
 console.log(longestConsecutive(nums3), "2");
