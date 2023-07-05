@@ -16,6 +16,8 @@ function ListNode(val, next) {
   this.next = next === undefined ? null : next;
 }
 
+//
+
 function toPretty(value) {
   return JSON.stringify(value);
 }
