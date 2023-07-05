@@ -26,11 +26,21 @@ jobs:
         run: |
           git push origin readme-update
       - name: Create Pull Request
+        id: cpr
         uses: peter-evans/create-pull-request@v5
         with:
           token: ${{ secrets.PAT }}
-          commit-message: Update README
           title: "Update README"
           branch: "readme-update"
+          commit-message: Update README
+          labels: |
+            report
+            automated pr
+          assignees: gthrm
+          reviewers: gthrm
+          committer: GitHub <noreply@github.com>
+          author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
+          signoff: false
           delete-branch: true
-          base: "main"
+          milestone: 1
+          draft: false
