@@ -18,15 +18,12 @@
 - [189.Rotate-Array](https://github.com/gthrm/my-leetcode/blob/main/189.Rotate-Array.js)
 - [206.Reverse–Linked-List](https://github.com/gthrm/my-leetcode/blob/main/206.Reverse–Linked-List.js)
 - [217.Contains-Duplicate](https://github.com/gthrm/my-leetcode/blob/main/217.Contains-Duplicate.js)
+- [226.Invert-Binary-Tree](https://github.com/gthrm/my-leetcode/blob/main/226.Invert-Binary-Tree.js)
 - [238.Product-of-Except-Self](https://github.com/gthrm/my-leetcode/blob/main/238.Product-of-Except-Self.js)
 - [242.Valid-Anagram](https://github.com/gthrm/my-leetcode/blob/main/242.Valid-Anagram.js)
 - [347.Top-K-Frequent-Elements](https://github.com/gthrm/my-leetcode/blob/main/347.Top-K-Frequent-Elements.js)
 - [357.Count-Numbers-with-Unique-Digits](https://github.com/gthrm/my-leetcode/blob/main/357.Count-Numbers-with-Unique-Digits.js)
 - [424.Longest-Repeating-Character-Replacement](https://github.com/gthrm/my-leetcode/blob/main/424.Longest-Repeating-Character-Replacement.js)
 - [704.Binary-Search](https://github.com/gthrm/my-leetcode/blob/main/704.Binary-Search.js)
-
-
-
-
 
 [Leetcode link](https://leetcode.com/gthrm/)
