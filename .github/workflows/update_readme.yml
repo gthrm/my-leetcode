@@ -9,22 +9,20 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
+      - name: Update README
+        run: |
+          chmod +x update_readme.sh
+          ./update_readme.sh
       - name: Create Pull Request
         id: cpr
         uses: peter-evans/create-pull-request@v5
         with:
           token: ${{ secrets.PAT }}
-          title: "Update README"
-          branch: "readme-update"
-          commit-message: Update README
-          labels: |
-            report
-            automated pr
-          assignees: gthrm
-          reviewers: gthrm
+          commit-message: "Update README"
           committer: GitHub <noreply@github.com>
           author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
           signoff: false
+          branch: "readme-update"
           delete-branch: true
-          milestone: 1
-          draft: false
+          title: "Update README"
+          body: "This PR updates the README file."
