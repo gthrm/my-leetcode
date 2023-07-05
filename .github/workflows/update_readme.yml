@@ -9,22 +9,6 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
-      - name: Create new branch
-        run: |
-          git checkout -b readme-update
-      - name: Update README
-        run: |
-          chmod +x update_readme.sh
-          ./update_readme.sh
-      - name: Commit changes
-        run: |
-          git diff
-          git config --global user.email "action@github.com"
-          git config --global user.name "GitHub Action"
-          git commit -am "Update README" || echo "No changes to commit"
-      - name: Push changes
-        run: |
-          git push origin readme-update
       - name: Create Pull Request
         id: cpr
         uses: peter-evans/create-pull-request@v5
