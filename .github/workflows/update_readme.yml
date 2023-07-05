@@ -1,0 +1,35 @@
+name: Update README
+on:
+  push:
+    paths:
+      - "**.js"
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Create new branch
+        run: |
+          git checkout -b readme-update
+      - name: Update README
+        run: |
+          chmod +x update_readme.sh
+          ./update_readme.sh
+      - name: Commit changes
+        run: |
+          git diff
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
+          git commit -am "Update README" || echo "No changes to commit"
+      - name: Push changes
+        run: |
+          git push origin readme-update
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          title: "Update README"
+          branch: "readme-update"
+          delete-branch: true
+          base: "main"
