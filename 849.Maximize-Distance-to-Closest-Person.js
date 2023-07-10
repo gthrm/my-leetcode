@@ -14,6 +14,7 @@ const maxDistToClosest = function (seats) {
   while (left < seats.length) {
     const element = seats[left];
     if (element === 0) {
+      right = left;
       let longestSize = 1;
       while (seats[right + 1] === 0) {
         right++;
