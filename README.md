@@ -25,5 +25,6 @@
 - [357.Count-Numbers-with-Unique-Digits](https://github.com/gthrm/my-leetcode/blob/main/357.Count-Numbers-with-Unique-Digits.js)
 - [424.Longest-Repeating-Character-Replacement](https://github.com/gthrm/my-leetcode/blob/main/424.Longest-Repeating-Character-Replacement.js)
 - [704.Binary-Search](https://github.com/gthrm/my-leetcode/blob/main/704.Binary-Search.js)
+- [849.Maximize-Distance-to-Closest-Person](https://github.com/gthrm/my-leetcode/blob/main/849.Maximize-Distance-to-Closest-Person.js)
 
 [Leetcode link](https://leetcode.com/gthrm/)
