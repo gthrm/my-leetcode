@@ -24,14 +24,14 @@
 // };
 
 // T O(n) M O(1)
-var reverseList = function (head) {
-    let prev = null
-    let current = head
-    while (current) {
-        let next = current.next
-        current.next = prev
-        prev = current
-        current = next
-    }
-    return prev
+const reverseList = function (head) {
+  let prev = null;
+  let current = head;
+  while (current) {
+    const { next } = current;
+    current.next = prev;
+    prev = current;
+    current = next;
+  }
+  return prev;
 };

@@ -1,15 +1,15 @@
-const case1 = ["flower", "flow", "flight"]; // "fl"
-const case2 = ["dog", "racecar", "car"]; // ""
-const case3 = ["ab", "a"]; // "a"
-const case4 = ["ab", "abc", "abdreujjf"]; // "a"
-const case5 = ["reflower", "flow", "flight"]; // ""
+const case1 = ['flower', 'flow', 'flight']; // "fl"
+const case2 = ['dog', 'racecar', 'car']; // ""
+const case3 = ['ab', 'a']; // "a"
+const case4 = ['ab', 'abc', 'abdreujjf']; // "a"
+const case5 = ['reflower', 'flow', 'flight']; // ""
 /**
  * @param {string[]} strs
  * @return {string}
  */
 const longestCommonPrefix = function (strs) {
   const sortedStrings = strs.sort(
-    (string1, string2) => string1.length - string2.length
+    (string1, string2) => string1.length - string2.length,
   );
   let firstElement = sortedStrings.shift();
 
@@ -23,8 +23,8 @@ const longestCommonPrefix = function (strs) {
   return firstElement;
 };
 
-console.log(longestCommonPrefix(case1), "fl");
-console.log(longestCommonPrefix(case2), "");
-console.log(longestCommonPrefix(case3), "a");
-console.log(longestCommonPrefix(case4), "b");
-console.log(longestCommonPrefix(case5), "");
+console.log(longestCommonPrefix(case1), 'fl');
+console.log(longestCommonPrefix(case2), '');
+console.log(longestCommonPrefix(case3), 'a');
+console.log(longestCommonPrefix(case4), 'b');
+console.log(longestCommonPrefix(case5), '');

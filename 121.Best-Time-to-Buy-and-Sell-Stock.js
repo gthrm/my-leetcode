@@ -56,7 +56,7 @@ const maxProfit = function (prices) {
 
   while (r < prices.length) {
     if (prices[l] < prices[r]) {
-      let profit = prices[r] - prices[l];
+      const profit = prices[r] - prices[l];
       if (max < profit) {
         max = profit;
       }
@@ -69,8 +69,8 @@ const maxProfit = function (prices) {
   return max;
 };
 
-console.log(maxProfit(case1), "Output: 5");
-console.log(maxProfit(case2), "Output: 0");
-console.log(maxProfit(case3), "Output: 0");
-console.log(maxProfit(case4), "Output: 2");
-console.log(maxProfit(case5), "Output: 4");
+console.log(maxProfit(case1), 'Output: 5');
+console.log(maxProfit(case2), 'Output: 0');
+console.log(maxProfit(case3), 'Output: 0');
+console.log(maxProfit(case4), 'Output: 2');
+console.log(maxProfit(case5), 'Output: 4');

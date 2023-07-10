@@ -328,7 +328,7 @@ const nums8 = [-1, 0, 1, 2, -1, -4, -2, -3, 3, 0, 4];
  * @param {number[]} nums
  * @return {number[][]}
  */
-var threeSum = function (nums) {
+const threeSum = function (nums) {
   const result = [];
   nums.sort((a, b) => a - b);
 
@@ -350,9 +350,9 @@ var threeSum = function (nums) {
         leftIndex++;
 
         while (
-          leftIndex < rightIndex &&
-          leftIndex > 0 &&
-          nums[leftIndex] === nums[leftIndex - 1]
+          leftIndex < rightIndex
+          && leftIndex > 0
+          && nums[leftIndex] === nums[leftIndex - 1]
         ) {
           leftIndex++;
         }
@@ -362,14 +362,14 @@ var threeSum = function (nums) {
   return result;
 };
 
-console.log(threeSum(nums1), "[[-1,-1,2],[-1,0,1]]");
-console.log(threeSum(nums2), "[]");
-console.log(threeSum(nums3), "[[0,0,0]]");
-console.log(threeSum(nums4), "[]");
-console.log(threeSum(nums5), "[[-2,-1,3],[-2,0,2],[-1,0,1]]");
-console.log(threeSum(nums6), "");
-console.log(threeSum(nums7), "");
+console.log(threeSum(nums1), '[[-1,-1,2],[-1,0,1]]');
+console.log(threeSum(nums2), '[]');
+console.log(threeSum(nums3), '[[0,0,0]]');
+console.log(threeSum(nums4), '[]');
+console.log(threeSum(nums5), '[[-2,-1,3],[-2,0,2],[-1,0,1]]');
+console.log(threeSum(nums6), '');
+console.log(threeSum(nums7), '');
 console.log(
   threeSum(nums8),
-  "[[-4,0,4],[-4,1,3],[-3,-1,4],[-3,0,3],[-3,1,2],[-2,-1,3],[-2,0,2],[-1,-1,2],[-1,0,1]]"
+  '[[-4,0,4],[-4,1,3],[-3,-1,4],[-3,0,3],[-3,1,2],[-2,-1,3],[-2,0,2],[-1,-1,2],[-1,0,1]]',
 );

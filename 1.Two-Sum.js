@@ -1,9 +1,9 @@
-const nums1 = [2, 7, 11, 15],
-  target1 = 9;
-const nums2 = [3, 2, 4],
-  target2 = 6;
-const nums3 = [3, 3],
-  target3 = 6;
+const nums1 = [2, 7, 11, 15];
+const target1 = 9;
+const nums2 = [3, 2, 4];
+const target2 = 6;
+const nums3 = [3, 3];
+const target3 = 6;
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -23,7 +23,7 @@ const nums3 = [3, 3],
 //   }
 // };
 
-var twoSum = function (nums, target) {
+const twoSum = function (nums, target) {
   if (nums.length === 2) {
     return [0, 1];
   }
@@ -37,6 +37,6 @@ var twoSum = function (nums, target) {
   }
 };
 
-console.log(twoSum(nums1, target1), "[0,1]");
-console.log(twoSum(nums2, target2), "[1,2]");
-console.log(twoSum(nums3, target3), "[0,1]");
+console.log(twoSum(nums1, target1), '[0,1]');
+console.log(twoSum(nums2, target2), '[1,2]');
+console.log(twoSum(nums3, target3), '[0,1]');

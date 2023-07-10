@@ -1,12 +1,12 @@
-const s1 = "ABAB",
-  k1 = 2;
+const s1 = 'ABAB';
+const k1 = 2;
 // Output: 4
 
-const s2 = "AABABBA",
-  k2 = 1;
+const s2 = 'AABABBA';
+const k2 = 1;
 // Output: 4
 
-const s3 = "ABBB";
+const s3 = 'ABBB';
 const k3 = 2;
 // Output: 4
 
@@ -15,8 +15,8 @@ const k3 = 2;
  * @param {number} k
  * @return {number}
  */
-var characterReplacement = function (s, k) {
-  let map = new Map();
+const characterReplacement = function (s, k) {
+  const map = new Map();
   let res = 0;
   let l = 0;
   for (let r = 0; r < s.length; r++) {

@@ -11,7 +11,7 @@ const height3 = [2, 3, 4, 5, 18, 17, 6];
  * @param {number[]} height
  * @return {number}
  */
-var maxArea = function (height) {
+const maxArea = function (height) {
   let l = 0;
   let r = height.length - 1;
   let result = 0;

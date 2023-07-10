@@ -37,7 +37,7 @@
 //   return count;
 // };
 
-var countNumbersWithUniqueDigits = function (n) {
+const countNumbersWithUniqueDigits = function (n) {
   if (n === 0) {
     return 1;
   }

@@ -1679,7 +1679,7 @@ const target5 = 789;
 //   }
 // };
 
-var twoSum = function (numbers, target) {
+const twoSum = function (numbers, target) {
   let leftIndex = 0;
   let rightIndex = numbers.length - 1;
   let sum;
@@ -1695,8 +1695,8 @@ var twoSum = function (numbers, target) {
   }
 };
 
-console.log(twoSum(numbers1, target1), "[1, 2]");
-console.log(twoSum(numbers2, target2), "[1, 3]");
-console.log(twoSum(numbers3, target3), "[1, 2]");
-console.log(twoSum(numbers4, target4), "[29999, 30000]");
-console.log(twoSum(numbers5, target5), "[3, 42]");
+console.log(twoSum(numbers1, target1), '[1, 2]');
+console.log(twoSum(numbers2, target2), '[1, 3]');
+console.log(twoSum(numbers3, target3), '[1, 2]');
+console.log(twoSum(numbers4, target4), '[29999, 30000]');
+console.log(twoSum(numbers5, target5), '[3, 42]');

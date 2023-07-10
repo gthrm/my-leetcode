@@ -14,7 +14,7 @@ const nums4 = [0, 1, 2, 4, 8, 5, 6, 7, 9, 3, 55, 88, 77, 99, 999999999];
  * @param {number[]} nums
  * @return {number}
  */
-var longestConsecutive = function (nums) {
+const longestConsecutive = function (nums) {
   const numsSet = new Set(nums);
   let longest = 0;
   for (let index = 0; index < nums.length; index++) {
@@ -32,8 +32,7 @@ var longestConsecutive = function (nums) {
   return longest;
 };
 
-
-console.log(longestConsecutive(nums1), "4");
-console.log(longestConsecutive(nums2), "9");
-console.log(longestConsecutive(nums3), "2");
-console.log(longestConsecutive(nums4), "10");
+console.log(longestConsecutive(nums1), '4');
+console.log(longestConsecutive(nums2), '9');
+console.log(longestConsecutive(nums3), '2');
+console.log(longestConsecutive(nums4), '10');

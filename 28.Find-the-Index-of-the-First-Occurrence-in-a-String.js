@@ -10,21 +10,21 @@
 // Input: haystack = "leetcode", needle = "code"
 // Output: 4
 
-const haystack1 = "sadbutsad",
-  needle1 = "sad";
+const haystack1 = 'sadbutsad';
+const needle1 = 'sad';
 
-const haystack2 = "leetcode",
-  needle2 = "leeto";
+const haystack2 = 'leetcode';
+const needle2 = 'leeto';
 
-const haystack3 = "leetcode",
-  needle3 = "code";
+const haystack3 = 'leetcode';
+const needle3 = 'code';
 
 /**
  * @param {string} haystack
  * @param {string} needle
  * @return {number}
  */
-var strStr = function (haystack, needle) {
+const strStr = function (haystack, needle) {
   let result = -1;
   for (let index = 0; index < haystack.length; index++) {
     result = index;
@@ -32,9 +32,8 @@ var strStr = function (haystack, needle) {
       if (needle[i] === haystack[index + i]) {
         if (i === needle.length - 1) {
           return result;
-        } else {
-          continue;
         }
+        continue;
       } else {
         result = -1;
         break;
@@ -44,6 +43,6 @@ var strStr = function (haystack, needle) {
   return result;
 };
 
-console.log(strStr(haystack1, needle1), "Output: 0");
-console.log(strStr(haystack2, needle2), "Output: -1");
-console.log(strStr(haystack3, needle3), "Output: 4");
+console.log(strStr(haystack1, needle1), 'Output: 0');
+console.log(strStr(haystack2, needle2), 'Output: -1');
+console.log(strStr(haystack3, needle3), 'Output: 4');

@@ -24,7 +24,6 @@ const nums3 = [1, 2, 3, 4];
 //   return map;
 // };
 
-
 // /**
 //  * @param {number[]} nums
 //  * @return {number[]}
@@ -54,7 +53,7 @@ const nums3 = [1, 2, 3, 4];
 //     return result
 // };
 
-var productExceptSelf = function (nums) {
+const productExceptSelf = function (nums) {
   const result = new Array(nums.length).fill(1);
   let prefix = 1;
   let postfix = 1;
@@ -77,6 +76,6 @@ var productExceptSelf = function (nums) {
   return result;
 };
 
-console.log(productExceptSelf(nums1), "Output: [24,12,8,6]");
-console.log(productExceptSelf(nums2), "Output: [0,0,9,0,0]");
-console.log(productExceptSelf(nums3), "Output: [24,12,8,6]");
+console.log(productExceptSelf(nums1), 'Output: [24,12,8,6]');
+console.log(productExceptSelf(nums2), 'Output: [0,0,9,0,0]');
+console.log(productExceptSelf(nums3), 'Output: [24,12,8,6]');

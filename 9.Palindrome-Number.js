@@ -29,7 +29,7 @@ const isPalindrome = function (x) {
   return x === reversNum || x === Math.trunc(reversNum / 10);
 };
 
-console.log(isPalindrome(case1), "is true");
-console.log(isPalindrome(case2), "is false");
-console.log(isPalindrome(case3), "is false");
-console.log(isPalindrome(case4), "is true");
+console.log(isPalindrome(case1), 'is true');
+console.log(isPalindrome(case2), 'is false');
+console.log(isPalindrome(case3), 'is false');
+console.log(isPalindrome(case4), 'is true');

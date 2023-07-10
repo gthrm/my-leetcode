@@ -1,29 +1,29 @@
-const case1 = ["eat", "tea", "tan", "ate", "nat", "bat"];
+const case1 = ['eat', 'tea', 'tan', 'ate', 'nat', 'bat'];
 // Output: [["bat"],["nat","tan"],["ate","eat","tea"]]
 
-const case2 = [""];
+const case2 = [''];
 // Output: [[""]]
 
-const case3 = ["a"];
+const case3 = ['a'];
 // Output: [["a"]];
 
-const case4 = ["", "b"];
+const case4 = ['', 'b'];
 // Output: [["b"],[""]]
 
-const case5 = ["", "", ""];
+const case5 = ['', '', ''];
 // Output: [["","",""]]
 
 /**
  * @param {string[]} strs
  * @return {string[][]}
  */
-var groupAnagrams = function (strs) {
-  const getCharCode = (char) => char.charCodeAt(0) - "a".charCodeAt(0);
+const groupAnagrams = function (strs) {
+  const getCharCode = (char) => char.charCodeAt(0) - 'a'.charCodeAt(0);
   const map = new Map();
   for (let index = 0; index < strs.length; index++) {
     const currentString = strs[index];
 
-    let frequency = new Array(26).fill(0); // 26 chars
+    const frequency = new Array(26).fill(0); // 26 chars
     for (const char of currentString) {
       const charCode = getCharCode(char);
       frequency[charCode]++;
@@ -70,7 +70,7 @@ var groupAnagrams = function (strs) {
 
 console.log(
   groupAnagrams(case1),
-  '[["bat"],["nat","tan"],["ate","eat","tea"]]'
+  '[["bat"],["nat","tan"],["ate","eat","tea"]]',
 );
 console.log(groupAnagrams(case2), '[[""]]');
 console.log(groupAnagrams(case3), '[["a"]]');

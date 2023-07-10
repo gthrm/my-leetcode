@@ -24,10 +24,10 @@ const k7 = 2;
  * @param {number} k
  * @return {number[]}
  */
-var topKFrequent = function (nums, k) {
+const topKFrequent = function (nums, k) {
   const temp = new Map();
   const result = [];
-  let answer = [];
+  const answer = [];
   for (let index = 0; index < nums.length; index++) {
     const element = nums[index];
     const frequency = temp.has(element) ? temp.get(element) + 1 : 1;
@@ -40,7 +40,7 @@ var topKFrequent = function (nums, k) {
   }
 
   while (result.length > 0) {
-    let value = result.pop();
+    const value = result.pop();
     if (value) {
       for (let index = 0; index < value.length; index++) {
         answer.push(value[index]);
@@ -65,10 +65,10 @@ var topKFrequent = function (nums, k) {
 //     .map(([key]) => key);
 // };
 
-console.log(topKFrequent(nums1, k1), "[1,2]");
-console.log(topKFrequent(nums2, k2), "[1]");
-console.log(topKFrequent(nums3, k3), "[-1]");
-console.log(topKFrequent(nums4, k4), "[1, 2]");
-console.log(topKFrequent(nums5, k5), "[1,2,3]");
-console.log(topKFrequent(nums6, k6), "[3,5]");
-console.log(topKFrequent(nums7, k7), "[ 1, 3 ]");
+console.log(topKFrequent(nums1, k1), '[1,2]');
+console.log(topKFrequent(nums2, k2), '[1]');
+console.log(topKFrequent(nums3, k3), '[-1]');
+console.log(topKFrequent(nums4, k4), '[1, 2]');
+console.log(topKFrequent(nums5, k5), '[1,2,3]');
+console.log(topKFrequent(nums6, k6), '[3,5]');
+console.log(topKFrequent(nums7, k7), '[ 1, 3 ]');

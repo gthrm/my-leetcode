@@ -1,13 +1,13 @@
-const s1 = "abcabcbb";
+const s1 = 'abcabcbb';
 // Output: 3
 
-const s2 = "bbbbb";
+const s2 = 'bbbbb';
 // Output: 1
 
-const s3 = "pwwkew";
+const s3 = 'pwwkew';
 // Output: 3
 
-const s4 = "au";
+const s4 = 'au';
 // Output: 3
 
 /**
@@ -43,8 +43,8 @@ const s4 = "au";
 //   return max;
 // };
 
-var lengthOfLongestSubstring = function (s) {
-  let temp = new Set();
+const lengthOfLongestSubstring = function (s) {
+  const temp = new Set();
   let l = 0;
   let max = 0;
   for (let r = 0; r < s.length; r++) {

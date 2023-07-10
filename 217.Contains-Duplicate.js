@@ -45,6 +45,6 @@ const containsDuplicate = function (nums) {
 //   return false;
 // };
 
-console.log(containsDuplicate(case1), "true");
-console.log(containsDuplicate(case2), "false");
-console.log(containsDuplicate(case3), "true");
+console.log(containsDuplicate(case1), 'true');
+console.log(containsDuplicate(case2), 'false');
+console.log(containsDuplicate(case3), 'true');

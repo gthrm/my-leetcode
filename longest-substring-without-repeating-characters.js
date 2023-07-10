@@ -2,14 +2,14 @@
  * @param {string} s
  * @return {number}
  */
-var lengthOfLongestSubstring = function (s) {
-  let map = {};
+const lengthOfLongestSubstring = function (s) {
+  const map = {};
   let start = 0;
   let maxLen = 0;
-  let arr = s.split("");
+  const arr = s.split('');
 
   for (i = 0; i < s.length; i++) {
-    let current = map[arr[i]];
+    const current = map[arr[i]];
 
     if ((current !== null || current !== undefined) && start <= current) {
       start = current + 1;
