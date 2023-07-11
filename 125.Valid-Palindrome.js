@@ -20,14 +20,27 @@ const case5 = '0P0';
 //   return true;
 // };
 
+// const isPalindrome = function (s) {
+//   const cleanString = s.toLowerCase().replaceAll(/[^a-z0-9]/g, '');
+//   for (let index = 0; index < cleanString.length / 2; index++) {
+//     const elementFromStart = cleanString[index];
+//     const elementFromEnd = cleanString[cleanString.length - 1 - index];
+//     if (elementFromStart !== elementFromEnd) {
+//       return false;
+//     }
+//   }
+//   return true;
+// };
+
 const isPalindrome = function (s) {
   const cleanString = s.toLowerCase().replaceAll(/[^a-z0-9]/g, '');
-  for (let index = 0; index < cleanString.length / 2; index++) {
-    const elementFromStart = cleanString[index];
-    const elementFromEnd = cleanString[cleanString.length - 1 - index];
-    if (elementFromStart !== elementFromEnd) {
+  let [left, right] = [0, cleanString.length - 1];
+  while (left < right) {
+    if (cleanString[left] !== cleanString[right]) {
       return false;
     }
+    left++;
+    right--;
   }
   return true;
 };
