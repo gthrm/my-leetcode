@@ -26,6 +26,7 @@
 - [283.Move-Zeroes](https://github.com/gthrm/my-leetcode/blob/main/283.Move-Zeroes.js)
 - [347.Top-K-Frequent-Elements](https://github.com/gthrm/my-leetcode/blob/main/347.Top-K-Frequent-Elements.js)
 - [357.Count-Numbers-with-Unique-Digits](https://github.com/gthrm/my-leetcode/blob/main/357.Count-Numbers-with-Unique-Digits.js)
+- [412.FizzBuzz.test](https://github.com/gthrm/my-leetcode/blob/main/412.FizzBuzz.test.js)
 - [424.Longest-Repeating-Character-Replacement](https://github.com/gthrm/my-leetcode/blob/main/424.Longest-Repeating-Character-Replacement.js)
 - [443.String-Compression](https://github.com/gthrm/my-leetcode/blob/main/443.String-Compression.js)
 - [557.Reverse-Words-in-a-String-III](https://github.com/gthrm/my-leetcode/blob/main/557.Reverse-Words-in-a-String-III.js)
