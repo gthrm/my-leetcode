@@ -34,6 +34,7 @@
 - [849.Maximize-Distance-to-Closest-Person](https://github.com/gthrm/my-leetcode/blob/main/849.Maximize-Distance-to-Closest-Person.js)
 - [896.Monotonic-Array](https://github.com/gthrm/my-leetcode/blob/main/896.Monotonic-Array.js)
 - [933.Number-of-Recent-Calls](https://github.com/gthrm/my-leetcode/blob/main/933.Number-of-Recent-Calls.js)
+- [1346.Check-If-N-and-Its-Double-Exist.test](https://github.com/gthrm/my-leetcode/blob/main/1346.Check-If-N-and-Its-Double-Exist.test.js)
 - [1450.Number-of-Students-Doing-Homework-at-a-Given-Time](https://github.com/gthrm/my-leetcode/blob/main/1450.Number-of-Students-Doing-Homework-at-a-Given-Time.js)
 
 [Leetcode link](https://leetcode.com/gthrm/)
