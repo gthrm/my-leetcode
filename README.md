@@ -38,5 +38,6 @@
 - [1450.Number-of-Students-Doing-Homework-at-a-Given-Time](https://github.com/gthrm/my-leetcode/blob/main/1450.Number-of-Students-Doing-Homework-at-a-Given-Time.js)
 - [1455.Check-If-a-Word-Occurs-As-a-Prefix-of-Any-Word-in-a-Sentence.test](https://github.com/gthrm/my-leetcode/blob/main/1455.Check-If-a-Word-Occurs-As-a-Prefix-of-Any-Word-in-a-Sentence.test.js)
 - [2109.Adding-Spaces-to-a-String.test](https://github.com/gthrm/my-leetcode/blob/main/2109.Adding-Spaces-to-a-String.test.js)
+- [2825](https://github.com/gthrm/my-leetcode/blob/main/2825.Make-String)
 
 [Leetcode link](https://leetcode.com/gthrm/)
