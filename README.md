@@ -39,6 +39,7 @@
 - [1455.Check-If-a-Word-Occurs-As-a-Prefix-of-Any-Word-in-a-Sentence.test](https://github.com/gthrm/my-leetcode/blob/main/1455.Check-If-a-Word-Occurs-As-a-Prefix-of-Any-Word-in-a-Sentence.test.js)
 - [2109.Adding-Spaces-to-a-String.test](https://github.com/gthrm/my-leetcode/blob/main/2109.Adding-Spaces-to-a-String.test.js)
 - [2337.Move-Pieces-to-Obtain-a-String.test](https://github.com/gthrm/my-leetcode/blob/main/2337.Move-Pieces-to-Obtain-a-String.test.js)
+- [2554.Maximum-Number-of-Integers-to-Choose-From-a-Range-I.test](https://github.com/gthrm/my-leetcode/blob/main/2554.Maximum-Number-of-Integers-to-Choose-From-a-Range-I.test.js)
 - [2825.Make-String-a-Subsequence-Using-Cyclic-Increments.test](https://github.com/gthrm/my-leetcode/blob/main/2825.Make-String-a-Subsequence-Using-Cyclic-Increments.test.js)
 
 [Leetcode link](https://leetcode.com/gthrm/)
