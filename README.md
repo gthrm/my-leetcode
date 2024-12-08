@@ -38,6 +38,7 @@
 - [1450.Number-of-Students-Doing-Homework-at-a-Given-Time](https://github.com/gthrm/my-leetcode/blob/main/1450.Number-of-Students-Doing-Homework-at-a-Given-Time.js)
 - [1455.Check-If-a-Word-Occurs-As-a-Prefix-of-Any-Word-in-a-Sentence.test](https://github.com/gthrm/my-leetcode/blob/main/1455.Check-If-a-Word-Occurs-As-a-Prefix-of-Any-Word-in-a-Sentence.test.js)
 - [1760.Minimum-Limit-of-Balls-in-a-Bag.test](https://github.com/gthrm/my-leetcode/blob/main/1760.Minimum-Limit-of-Balls-in-a-Bag.test.js)
+- [2054.Two-Best-Non-Overlapping-Events.test](https://github.com/gthrm/my-leetcode/blob/main/2054.Two-Best-Non-Overlapping-Events.test.js)
 - [2109.Adding-Spaces-to-a-String.test](https://github.com/gthrm/my-leetcode/blob/main/2109.Adding-Spaces-to-a-String.test.js)
 - [2337.Move-Pieces-to-Obtain-a-String.test](https://github.com/gthrm/my-leetcode/blob/main/2337.Move-Pieces-to-Obtain-a-String.test.js)
 - [2554.Maximum-Number-of-Integers-to-Choose-From-a-Range-I.test](https://github.com/gthrm/my-leetcode/blob/main/2554.Maximum-Number-of-Integers-to-Choose-From-a-Range-I.test.js)
