@@ -43,6 +43,7 @@
 - [2337.Move-Pieces-to-Obtain-a-String.test](https://github.com/gthrm/my-leetcode/blob/main/2337.Move-Pieces-to-Obtain-a-String.test.js)
 - [2554.Maximum-Number-of-Integers-to-Choose-From-a-Range-I.test](https://github.com/gthrm/my-leetcode/blob/main/2554.Maximum-Number-of-Integers-to-Choose-From-a-Range-I.test.js)
 - [2825.Make-String-a-Subsequence-Using-Cyclic-Increments.test](https://github.com/gthrm/my-leetcode/blob/main/2825.Make-String-a-Subsequence-Using-Cyclic-Increments.test.js)
+- [2981.Find-Longest-Special-Substring-That-Occurs-Thrice-I.test](https://github.com/gthrm/my-leetcode/blob/main/2981.Find-Longest-Special-Substring-That-Occurs-Thrice-I.test.js)
 - [3152.Special-Array-II.test](https://github.com/gthrm/my-leetcode/blob/main/3152.Special-Array-II.test.js)
 
 [Leetcode link](https://leetcode.com/gthrm/)
